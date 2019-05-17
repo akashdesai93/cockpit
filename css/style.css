@@ -42,7 +42,10 @@ body {
     margin-top: 70px;
     */
 }
-
+#social {
+    height: 2rem;
+    width: 20rem;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
