@@ -43,9 +43,35 @@ body {
     */
 }
 #social {
-    height: 2rem;
-    width: 20rem;
+    
+    background-color: rgba(115,0,10,1);
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 2rem;
+    align-content: center!important;
 }
+
+#willy {
+    margin-top: 50% 0;
+    background-image: url(/images/willyb.jpeg);
+}
+
+#traditions {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#traditions h1 {
+    text-align: center;
+}
+
+#contact {
+    margin-top: 50px;
+}
+
+
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 

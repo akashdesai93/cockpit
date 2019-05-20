@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +10,7 @@
     <link rel="stylesheet" href="css/fixed.css">
 </head>
 
-<body data-spy="scroll" data-targed="#navbarResponsive">
+<body data-spy="scroll">
 
 
     <!--Start Home Section-->
@@ -37,8 +38,8 @@
                     <li class="nav-item">
                         <a href="#membership" class="nav-link">Membership</a>
                     </li>
-                     <li class="nav-item">
-                         <a href="#merch" class="nav-link">Merch</a>
+                    <li class="nav-item">
+                        <a href="#merch" class="nav-link">Merch</a>
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
@@ -62,25 +63,38 @@
 
     <!--Start Schedule Section-->
     <div id="schedule">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <iframe src="https://calendar.google.com/calendar/embed?src=akashdesai93%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <iframe src="https://calendar.google.com/calendar/embed?src=akashdesai93%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-4">
+                    <div class="card">
+                        <iframe src="https://calendar.google.com/calendar/embed?src=akashdesai93%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="500" height="600" frameborder="0" scrolling="yes"></iframe>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <iframe src="https://calendar.google.com/calendar/embed?src=akashdesai93%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="500" height="600" frameborder="0" scrolling="no"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--End Events Section-->
 
+    <!--End Events Section-->
+    <div class="landing">
+        <div class="home-wrap">
+            <div class="home-inner" id="willy">
+            </div>
+        </div>
+    </div>
 
     <!--Start Traditions Section-->
-    <div id="traditions">
-
+    <div class="container-fluid" id="traditions">
+        <div class="col-md">
+            <h1>Traditions</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur explicabo nesciunt, et! Perspiciatis nobis optio veritatis, assumenda quos. Accusamus libero laborum perferendis, vero porro reprehenderit repudiandae ad dicta quas assumenda.
+            </p>
+        </div>
     </div>
     <!--End Traditions Section-->
 
@@ -90,18 +104,12 @@
     </div>
     <!--End Membership Section-->
 
-    <!--Start Contact Section-->
-    <div id="contact">
-
-    </div>
-    <!--End Contact Section-->
-    
-     <!--Start social Section-->
+    <!--Start social Section-->
     <div id="social">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-12 socialBox">
-                    <a class="twitter-timeline" href="https://twitter.com/TheCockpitSC?ref_src=twsrc%5Etfw">Tweets by TheCockpitSC</a>
+                <div class="col-xl">
+                    <a class="twitter-timeline" href="https://twitter.com/TheCockpitSC" data-chrome="nofooter noborders" data-width="520" data-height="700">Tweets by TheCockpitSC</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
@@ -109,13 +117,17 @@
     </div>
     <!--End social Section-->
 
+    <!--Start Contact Section-->
 
 
     <!--- Script Source Files -->
 
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/cockpit.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
     <!--- End of Script Source Files -->
 
-</body></html>
+</body>
+
+</html>
